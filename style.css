@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    font-family: 'Bebas Neue', cursive;;
+}
+header {
+    background-color: rgb(43, 43, 129);
+    font-size: calc(1rem + 1vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    color: white;
+}
+main {
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+main input {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 25px;
+    min-width: 10px;
+    min-height: 10px;
+    border: 1px solid gray;
+    margin: 3px;
+}
+main input:checked {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 3vh;
+    border: 1px solid gray;
+    background-color: rgb(149, 149, 211);
+}
+main div {
+    display: flex;
+}
+footer {
+    background-color: rgb(43, 43, 129);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div {
+    display: flex;
+    font-size: calc(1rem + .3vw);
+    width: 8%;
+}
+footer div p {
+    margin-right: 5%;
+    color: rgb(226, 226, 226);
+}
+footer button {
+    width: 8%;
+    min-width: 60px;
+    height: 60%;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    font-size: calc(1rem + 1vw);
+    cursor: pointer;
+    color: rgb(53, 53, 53);
+    font-family: 'Bebas Neue', cursive;
+}
+footer input {
+    outline: 0;
+    width: 30%;
+    min-width: 30px;
+    height: 60%;
+    border: none;
+    font-size: calc(1rem + 1vw);
+    color: white;
+    background-color: rgb(43, 43, 129);
+    font-family: 'Bebas Neue', cursive;
+    align-self: center;
+}
+footer input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
