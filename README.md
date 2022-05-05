@@ -1,6 +1,7 @@
 # Beat Maker
 - Pure Javascript
 - Rapid
+- Editable
 
-## No complete
+## Incomplete
 
