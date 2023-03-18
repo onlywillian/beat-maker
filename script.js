@@ -24,7 +24,7 @@ const inputClassName = [
     'analog', 'bought', 'spice', 'fat'
 ];
 
-const columns = 15, rows = 45;
+const columns = 15, rows = 15;
 
 function insertSoundsContents() {
     const main = document.querySelector('main');
